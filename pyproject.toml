@@ -1,0 +1,17 @@
+[project]
+name = "study-vault-ai"
+version = "0.1.0"
+description = "AI-powered study companion that understands your study materials, answers questions with citations, creates revision resources, and helps you prepare for exams."
+readme = "README.md"
+authors = [
+    { name = "Adrij Ghosh", email = "adrijghosh8@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+study-vault-ai = "study_vault_ai:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
