@@ -50,7 +50,7 @@ lambda_mult = 0.25
 # Intialize Embedding Model
 
 embedding_model = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/all-mpnet-base-v2"
+    model_name="sentence-transformers/all-MiniLM-L6-v2"
 )
  # Intialize vector store
  
