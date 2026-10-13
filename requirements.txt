@@ -7,7 +7,6 @@ python-dotenv
 langchain-core
 langchain-text-splitters
 langchain-unstructured
-langchain-huggingface
 langchain-google-genai
 langchain-chroma
 chromadb
@@ -15,5 +14,4 @@ chromadb
 PyMuPDF
 Pillow
 pytesseract
-sentence-transformers
 unstructured
